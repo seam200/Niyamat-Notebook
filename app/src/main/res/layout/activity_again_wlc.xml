@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome To"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:id="@+id/allinonelogo"
+        android:src="@drawable/logo"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="150dp"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="My Personal Note"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:layout_marginTop="-100dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:textColor="@color/black"
+        android:text="Please Wait"
+        android:textSize="16sp"
+        android:layout_width="300dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        ></TextView>
+
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:progress="90"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:text="Developer by NIYAMAT IT"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="19sp"
+        android:layout_width="300dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"></TextView>
+
+</LinearLayout>
